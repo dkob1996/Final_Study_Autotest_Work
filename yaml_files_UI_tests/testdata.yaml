@@ -1,0 +1,20 @@
+# URL'S
+address: https://test-stand.gb.ru
+lk_address: https://test-stand.gb.ru
+
+# Setting-up data
+browser: chrome   # chrome/firefox
+sleep_time: 3
+wait: 5
+
+
+# Errors with codes
+401_error: '401'
+500_error: '500'
+cant_find_element_by_locator: 'Cannot find element by locator'
+
+# Login page
+hello_prefix: 'Hello'
+username: testtest1
+password: c23b2ed66e
+invalid_login_data: test
