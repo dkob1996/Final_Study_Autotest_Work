@@ -13,3 +13,9 @@ def yaml_ui_testdata():
 ## API testing config
 def yaml_api_config():
     return './yaml_files_API_tests/config.yaml'
+
+
+# Yaml files for Security testing
+## SEC testing config
+def yaml_sec_testdata():
+    return './yaml_files_SEC_tests/data.yaml'

@@ -1,0 +1,35 @@
+nitial-scale=1.0\">\n    <meta name=\"theme-color\" content=\"#333333\">\n\n    <link rel=\"stylesheet\" href=\"/global.css\">\n    <link rel=\"manifest\" href=\"/manifest.json\" crossorigin=\"use-credentials\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon/favicon.ico\">\n    <link rel=\"apple-touch-icon\" href=\"/logo/logo-192.png\">\n\n    <!-- Material Icons -->\n    <link\n        rel=\"stylesheet\"\n        href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\n    />\n    <!-- Roboto -->\n    <link\n        rel=\"stylesheet\"\n        href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700\"\n    />\n    <!-- Roboto Mono -->\n    <link\n        rel=\"stylesheet\"\n        href=\"https://fonts.googleapis.com/css?family=Roboto+Mono\"\n    />\n    <!-- SMUI Styles -->\n    <link rel=\"stylesheet\" href=\"/smui.css\"/>\n\n    <title>404</title>\n\t<link rel=\"stylesheet\" href=\"/_app/immutable/assets/__layout-6fdc8c0a.css\">\n\t<link rel=\"stylesheet\" href=\"/_app/immutable/assets/__error-108d6c30.css\">\n\t<link rel=\"modulepreload\" href=\"/_app/immutable/start-821f7383.js\">\n\t<link rel=\"modulepreload\" href=\"/_app/immutable/chunks/index-30fd21fe.js\">\n\t<link rel=\"modulepreload\" href=\"/_app/immutable/chunks/index-fd7f0df0.js\">\n\t<link rel=\"modulepreload\" href=\"/_app/immutable/pages/__layout.svelte-612f8e01.js\">\n\t<link rel=\"modulepreload\" href=\"/_app/immutable/chunks/access-dd3d2e45.js\">\n\t<link rel=\"modulepreload\" href=\"/_app/immutable/chunks/stores-58934ee3.js\">\n\t<link rel=\"modulepreload\" href=\"/_app/immutable/chunks/Ripple-429b85fd.js\">\n\t<link rel=\"modulepreload\" href=\"/_app/immutable/chunks/useActions-5f809003.js\">\n\t<link rel=\"modulepreload\" href=\"/_app/immutable/chunks/keyboard-49973ed0.js\">\n\t<link rel=\"modulepreload\" href=\"/_app/immutable/pages/__error.svelte-b31895ed.js\">\n</head>\n<body>\n<!-- The application will be rendered inside this element,\n     because `src/client.js` references it -->\n<div id=\"app\">\n\n\n<main class=\"svelte-1pbgeyl\"><nav class=\"svelte-1rc85o5\"></nav>\n    <div class=\"container svelte-1pbgeyl\">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<div class=\"container svelte-195leua\"><h1 class=\"svelte-195leua\">404</h1>\n\n    <p class=\"svelte-195leua\">404: Not found: /app-ads.txt</p>\n\n    <pre>Error: Not found: /app-ads.txt\n    at resolve (file:///app/build/server/_app/immutable/chunks/index-a7a5809b.js:2365:20)\n    at async Object.handle (file:///app/build/server/_app/immutable/chunks/hooks-29ade96c.js:29:20)\n    at async respond (file:///app/build/server/_app/immutable/chunks/index-a7a5809b.js:2271:22)\n    at async Array.ssr (file:///app/build/handler-aee37ee5.js:1102:3)</pre></div></div>\n    <footer class=\"svelte-xz48vp\"><div class=\"copyright svelte-xz48vp\">Copyright \xe2\x93\x92 2022 . Geekbrains</div></footer></main>\n\n\n\t\t<script type=\"module\" data-sveltekit-hydrate=\"hwoal1\">\n\t\timport { set_public_env, start } from \"/_app/immutable/start-821f7383.js\";\n\n\t\tset_public_env({});\n\n\t\tstart({\n\t\t\ttarget: document.querySelector('[data-sveltekit-hydrate=\"hwoal1\"]').parentNode,\n\t\t\tpaths: {\"base\":\"\",\"assets\":\"\"},\n\t\t\tsession: (function(a){return {user:{id:null,username:a,token:a,roles:[]}}}(\"\")),\n\t\t\troute: true,\n\t\t\tspa: false,\n\t\t\ttrailing_slash: \"never\",\n\t\t\thydrate: {\n\t\t\t\tstatus: 404,\n\t\t\t\terror: {\"name\":\"Error\",\"message\":\"Not found: /app-ads.txt\",\"stack\":\"Error: Not found: /app-ads.txt\\n    at resolve (file:///app/build/server/_app/immutable/chunks/index-a7a5809b.js:2365:20)\\n    at async Object.handle (file:///app/build/server/_app/immutable/chunks/hooks-29ade96c.js:29:20)\\n    at async respond (file:///app/build/server/_app/immutable/chunks/index-a7a5809b.js:2271:22)\\n    at async Array.ssr (file:///app/build/handler-aee37ee5.js:1102:3)\"},\n\t\t\t\tnodes: [0, 1],\n\t\t\t\tparams: {},\n\t\t\t\trouteId: null\n\t\t\t}\n\t\t});\n\t</script></div>\n</body>\n</html>\n",
+                'header_order' => [
+                        'content-type',
+                        'date',
+                        'etag',
+                        'transfer-encoding'
+                ],
+                'http_data_sent' => 1,
+                'http_eol' => "\r\n",
+                'http_space1' => ' ',
+                'http_space2' => ' ',
+                'lowercase_incoming_headers' => 1,
+                'message' => 'Not Found',
+                'protocol' => 'HTTP',
+                'socket_state' => 0,
+                'ssl_cert_altnames' => [
+                        2,
+                        'api.test-stand.gb.ru',
+                        2,
+                        'test-stand.gb.ru'
+                ],
+                'ssl_cert_issuer' => '/C=US/O=Let\'s Encrypt/CN=R3',
+                'ssl_cert_subject' => '/CN=api.test-stand.gb.ru',
+                'ssl_cipher' => 'AEAD-CHACHA20-POLY1305-SHA256',
+                'stats_reqs' => 7831,
+                'stats_syns' => 7831,
+                'uri' => '/app-ads.txt',
+                'uri_requested' => '/app-ads.txt',
+                'version' => '1.1'
+        }
+};
++ 8045 requests: 0 error(s) and 8 item(s) reported on remote host
++ End Time:           2024-02-02 03:36:41 (GMT6) (3328 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

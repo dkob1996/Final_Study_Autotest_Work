@@ -1,0 +1,15 @@
+
+## cmd data
+cmd_name: 'nikto'
+cmd_h_key: '-h'
+cmd_o_key: '-o'
+ssl_key: '-ssl'
+tuning_key: '-Tuning'
+tuning_level_value: '4'
+
+## urls
+site_url: 'https://test-stand.gb.ru/'
+output_file_url: './Security_tests/output/scan.txt'
+
+## valid data
+zero_errors: '0 error(s)'
