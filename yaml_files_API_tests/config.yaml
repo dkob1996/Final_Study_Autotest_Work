@@ -1,0 +1,17 @@
+# Test urls
+login_url: 'https://test-stand.gb.ru/gateway/login'
+posts_url: 'https://test-stand.gb.ru/api/posts'
+profile_url: 'https://test-stand.gb.ru/gateway/users/profile/'
+
+# Auth data
+username: '4stud'
+password: 'e442630e84'
+
+# Data in post
+username_in_post: 'testtest1'
+
+## Create post
+title: test_title
+description: test_description
+content: test_content
+description_answer: test_description

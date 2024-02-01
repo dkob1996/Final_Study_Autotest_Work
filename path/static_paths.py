@@ -10,3 +10,6 @@ def yaml_ui_testdata():
 
 
 # Yaml files for API testing
+## API testing config
+def yaml_api_config():
+    return './yaml_files_API_tests/config.yaml'
