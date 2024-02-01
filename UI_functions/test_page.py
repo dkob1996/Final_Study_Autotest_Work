@@ -34,6 +34,15 @@ class OperationsHelper(BasePage):
     def click_button(self, locator):
         field = self.find_element(locator)
         field.click()
+
+    # Func which return property of css style
+    def take_css_property(self, locator, property):
+        field = self.get_element_property(locator, property)
+        return field
+    
+    def get_attribute_by_xpath(self, locator, attribute):
+        field = self.find_element(locator).get_attribute(attribute)
+        return field
             
 
     # Functions which use main functions and transfer to them curtain locators
@@ -53,3 +62,14 @@ class OperationsHelper(BasePage):
         
     def get_auth_text(self):
         return self.get_text(TestSearchLocator.ids['HELLO_USERNAME_SEPECTOR'])
+    
+    ## About page functions
+    def click_about_button(self):
+        self.click_button(TestSearchLocator.ids['ABOUT_BUTTON'])
+
+    def get_about_page_name(self):
+        return self.get_text(TestSearchLocator.ids['ABOUT_PAGENAME'])
+    
+    def take_title_font_size(self):
+        return self.take_css_property(TestSearchLocator.ids['ABOUT_PAGENAME'], 'font-size')
+

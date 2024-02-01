@@ -4,7 +4,11 @@ Xpath:
     ERROR_FIELD: //*[@id="app"]/main/div/div/div[2]/h2
     HELLO_USERNAME_SEPECTOR: //*[@id="app"]/main/nav/ul/li[3]/a
 
+    ABOUT_BUTTON: //*[@id="app"]/main/nav/ul/li[1]/a
+    ABOUT_PAGENAME: //*[@id="app"]/main/div/div/h1
+
 
 
 CSS_SELECTOR:
     LOGIN_BUTTON_FIELD: button
+    ABOUT_PAGENAME_CSS: app > main > div > div > h1

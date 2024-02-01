@@ -25,8 +25,8 @@ class BasePage:
         return element
 
     # Func to get element property from element which we found
-    def get_element_property(self, mode, path, property):
-        element = self.find_element(mode, path)
+    def get_element_property(self, path, property):
+        element = self.find_element(path)
         if element is None:
             return None
         else:

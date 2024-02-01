@@ -18,3 +18,7 @@ hello_prefix: 'Hello'
 username: testtest1
 password: c23b2ed66e
 invalid_login_data: test
+
+# About page
+valid_about_page_name: 'About Page'
+valid_title_font_size: '32px'
