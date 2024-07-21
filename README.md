@@ -11,7 +11,7 @@
 3. Using the <b>requests</b> library, perform authorization on the site using the authorization token in headers, retrieve data about the current user and verify that it matches the data returned in the authorization request response;
 <br><hr>
 
-## Структура проекта
+## Project structure
 * API_tests // api test folder<br>
 -- test_1_api.py - 1st api test (checking the username from the request with the expected one)
 
